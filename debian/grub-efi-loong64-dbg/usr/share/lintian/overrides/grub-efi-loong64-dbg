@@ -1,0 +1,6 @@
+grub-efi-loong64-dbg: unstripped-binary-or-object **.module*
+grub-efi-loong64-dbg: statically-linked-binary **.image*
+grub-efi-loong64-dbg: statically-linked-binary *usr/lib/grub/loongarch64-efi/kernel.exec*
+grub-efi-loong64-dbg: unstripped-binary-or-object **.module*
+grub-efi-loong64-dbg: statically-linked-binary **.image*
+grub-efi-loong64-dbg: statically-linked-binary *usr/lib/grub/loongarch64-efi/kernel.exec*

@@ -1,0 +1,3 @@
+usr/lib/grub/loongarch64-efi/*.exec
+usr/lib/grub/loongarch64-efi/*.module
+usr/lib/grub/loongarch64-efi/gdb_grub

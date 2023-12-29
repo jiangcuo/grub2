@@ -1,0 +1,5 @@
+usr/lib/grub/loongarch64-efi/*.img
+usr/lib/grub/loongarch64-efi/*.lst
+usr/lib/grub/loongarch64-efi/*.mod
+usr/lib/grub/loongarch64-efi/config.h
+usr/lib/grub/loongarch64-efi/modinfo.sh

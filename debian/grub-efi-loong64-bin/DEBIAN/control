@@ -1,0 +1,28 @@
+Package: grub-efi-loong64-bin
+Source: grub2
+Version: 2.13
+Architecture: loong64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 2818
+Depends: grub-common (>= 2.02~beta2-9)
+Recommends: efibootmgr
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (loong64 UEFI modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use on loong64
+ systems with UEFI.  It can be installed in parallel with other flavours,
+ but will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-loong64 is also
+ installed.
+Efi-Vendor: debian

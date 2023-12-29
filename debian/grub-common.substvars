@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.37), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), libfreetype6 (>= 2.2.1), libfuse3-3 (>= 3.2.3), liblzma5 (>= 5.1.1alpha+20120614), libnvpair3linux (>= 2.2.0), libzfs4linux (>= 2.2.0)
+misc:Depends=
+misc:Pre-Depends=
